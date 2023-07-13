@@ -1,0 +1,22 @@
+{
+  "name": "alarms",
+  "version": "1.0.0",
+  "description": "Alaram Notifications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon node index.js"
+  },
+  "author": "Kratos",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "bull": "^4.10.4",
+    "cron": "^2.3.1",
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "mongoose": "^7.3.3",
+    "node-cron": "^3.0.2",
+    "nodemon": "^3.0.1"
+  }
+}
